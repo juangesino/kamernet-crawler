@@ -1,0 +1,53 @@
+{
+  "name": "kamernet-crawler",
+  "version": "0.0.1",
+  "description": "Crawler for getting data from Kemernet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "details": "node details.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juangesino/kamernet-crawler.git"
+  },
+  "keywords": [
+    "crawlers",
+    "headless",
+    "chrome"
+  ],
+  "author": "Juan I. Gesino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juangesino/kamernet-crawler/issues"
+  },
+  "homepage": "https://github.com/juangesino/kamernet-crawler#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "puppeteer": "^1.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.8.0",
+    "prettier": "^1.12.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
