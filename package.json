@@ -8,6 +8,10 @@
     "details": "node details.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "npm": ">=6.0.0 <7.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juangesino/kamernet-crawler.git"
